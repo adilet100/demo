@@ -19,7 +19,13 @@ public class User extends BaseTimedEntity implements UserDetails {
 
     public static User of(UserCreateForm form) {
 
-        return new User().setUsername(form.getUsername()).setPassword(form.getPassword()).setRole(UserRole.ROLE_USER);
+        return new User()
+                .setUsername(form.getUsername())
+                .setPassword(form.getPassword())
+                .setLast_name(form.getLastName())
+                .setPhone_number(form.getPhoneNumber())
+                .setE_mail(form.getE_mail())
+                .setRole(UserRole.ROLE_USER);
     }
 
     @NotEmpty
@@ -29,6 +35,15 @@ public class User extends BaseTimedEntity implements UserDetails {
     @NotEmpty
     private String password;
 
+    @NotEmpty
+    private String last_name;
+
+    @NotEmpty
+    private String e_mail;
+
+    @NotEmpty
+    private String phone_number;
+
     @NotNull
     @Enumerated
     private UserRole role;
@@ -37,13 +52,24 @@ public class User extends BaseTimedEntity implements UserDetails {
         this.username = username;
         return this;
     }
-
     public User setPassword(String password) {
         this.password = password;
         return this;
     }
     public User setRole(UserRole role) {
         this.role = role;
+        return this;
+    }
+    public User setLast_name(String last_name) {
+        this.last_name = last_name;
+        return this;
+    }
+    public User setE_mail(String e_mail) {
+        this.e_mail = e_mail;
+        return this;
+    }
+    public User setPhone_number(String phone_number) {
+        this.phone_number = phone_number;
         return this;
     }
 
@@ -64,6 +90,18 @@ public class User extends BaseTimedEntity implements UserDetails {
     @Override
     public String getUsername() {
         return username;
+    }
+
+    public String getLastName() {
+        return last_name;
+    }
+
+    public String getE_mail() {
+        return e_mail;
+    }
+
+    public String getPhoneNumber() {
+        return phone_number;
     }
 
     @Override

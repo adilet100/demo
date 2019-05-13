@@ -5,9 +5,6 @@ CREATE TABLE users
     updated_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     username        VARCHAR(255) UNIQUE,
     password        VARCHAR(255),
-#     e_mail          VARCHAR(255)NOT NULL ,
-#     lastName        VARCHAR(255)NOT NULL ,
-#     phoneNumber     VARCHAR(255)NOT NULL ,
     role       INT,
     PRIMARY KEY (id)
 ) ENGINE = InnoDB

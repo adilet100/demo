@@ -30,6 +30,27 @@
                             <i class="icon-lock2 text-muted"></i>
                         </div>
                     </div>
+                    <div class="form-group has-feedback has-feedback-left">
+                        <@spring.formInput "UserCreateForm.lastName" " class='form-control' placeholder='Фамилия' " "text"/>
+                        <@spring.showErrors "" "validation-error-label" />
+                        <div class="form-control-feedback">
+                            <i class="icon-medal text-muted"></i>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback has-feedback-left">
+                        <@spring.formInput "UserCreateForm.phoneNumber" " class='form-control' placeholder='Номер телефона' " "text"/>
+                        <@spring.showErrors "" "validation-error-label" />
+                        <div class="form-control-feedback">
+                            <i class="icon-phone text-muted"></i>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback has-feedback-left">
+                        <@spring.formInput "UserCreateForm.e_mail" " class='form-control' placeholder='E-mail' " "text"/>
+                        <@spring.showErrors "" "validation-error-label" />
+                        <div class="form-control-feedback">
+                            <i class="icon-mail-read text-muted"></i>
+                        </div>
+                    </div>
 
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary btn-block">
