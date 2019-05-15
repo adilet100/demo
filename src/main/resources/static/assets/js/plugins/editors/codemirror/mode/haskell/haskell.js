@@ -217,7 +217,7 @@ CodeMirror.defineMode("haskell", function(_config, modeConfig) {
       "fromIntegral", "fromRational", "fst", "gcd", "getChar", "getContents",
       "getLine", "head", "id", "init", "interact", "ioError", "isDenormalized",
       "isIEEE", "isInfinite", "isNaN", "isNegativeZero", "iterate", "last",
-      "lcm", "length", "lex", "lines", "log", "logBase", "lookup", "map",
+      "lcm", "length", "lex", "lines", "log", "logBase", "lookup", "static.assets.images.map",
       "mapM", "mapM_", "max", "maxBound", "maximum", "maybe", "min", "minBound",
       "minimum", "mod", "negate", "not", "notElem", "null", "odd", "or",
       "otherwise", "pi", "pred", "print", "product", "properFraction",

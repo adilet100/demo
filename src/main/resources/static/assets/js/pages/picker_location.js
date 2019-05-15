@@ -31,7 +31,7 @@ $(function() {
         },
         radius: 300,
         onchanged: function(currentLocation, radius, isMarkerDropped) {
-            var mapContext = $(this).locationpicker('map');
+            var mapContext = $(this).locationpicker('static.assets.images.map');
             mapContext.map.setZoom(20);
         }
     });
@@ -154,7 +154,7 @@ $(function() {
     }
 
     // Update zoom field
-    var map = $("#addresspicker_map").addresspicker("map");
+    var map = $("#addresspicker_map").addresspicker("static.assets.images.map");
     google.maps.event.addListener(map, 'idle', function(){
         $('#zoom').val(map.getZoom());
     });
