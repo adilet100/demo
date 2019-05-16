@@ -16,7 +16,7 @@ public class UserCreateForm {
     private String lastName;
 
     @NotEmpty
-    private String e_mail;
+    private String eMail;
 
     @NotEmpty
     private String phoneNumber;
@@ -50,10 +50,10 @@ public class UserCreateForm {
         return this;
     }
 
-    public String getE_mail() { return e_mail; }
+    public String getE_mail() { return eMail; }
 
-    public UserCreateForm setE_mail(String e_mail) {
-        this.e_mail = e_mail;
+    public UserCreateForm setE_mail(String eMail) {
+        this.eMail = eMail;
         return this;
     }
 

@@ -36,13 +36,13 @@ public class User extends BaseTimedEntity implements UserDetails {
     private String password;
 
     @NotEmpty
-    private String last_name;
+    private String lastName;
 
     @NotEmpty
-    private String e_mail;
+    private String eMail;
 
     @NotEmpty
-    private String phone_number;
+    private String phoneNumber;
 
     @NotNull
     @Enumerated
@@ -60,16 +60,16 @@ public class User extends BaseTimedEntity implements UserDetails {
         this.role = role;
         return this;
     }
-    public User setLast_name(String last_name) {
-        this.last_name = last_name;
+    public User setLast_name(String lastName) {
+        this.lastName = lastName;
         return this;
     }
-    public User setE_mail(String e_mail) {
-        this.e_mail = e_mail;
+    public User setE_mail(String eMail) {
+        this.eMail = eMail;
         return this;
     }
-    public User setPhone_number(String phone_number) {
-        this.phone_number = phone_number;
+    public User setPhone_number(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
         return this;
     }
 
@@ -93,15 +93,15 @@ public class User extends BaseTimedEntity implements UserDetails {
     }
 
     public String getLastName() {
-        return last_name;
+        return lastName;
     }
 
     public String getE_mail() {
-        return e_mail;
+        return eMail;
     }
 
     public String getPhoneNumber() {
-        return phone_number;
+        return phoneNumber;
     }
 
     @Override
