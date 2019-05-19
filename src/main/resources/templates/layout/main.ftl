@@ -372,7 +372,7 @@
 
 
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" href="/payment" id="btnIndividual" >Купить</a>
+                            <a class="btn btn-cta" href="/payment/one" id="btnIndividual" >Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -388,7 +388,7 @@
 
 
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" id="btnCom" >Купить</a>
+                            <a class="btn btn-cta" href="/payment/two" id="btnCom" >Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -403,7 +403,7 @@
                                 <p>Обеспечение мероприятия платформой для перевода.Неограниченное количество слушателей</p>
                                 <a target="_blank">1 час аренда</a>
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" id="btnConferenc" target="_blank">Купить</a>
+                            <a class="btn btn-cta" href="/payment/common?mode=three" id="btnConferenc" target="_blank">Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->
