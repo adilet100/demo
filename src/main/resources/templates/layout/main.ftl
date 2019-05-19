@@ -18,12 +18,12 @@
         <link href="/static/assets/css/colors.css" rel="stylesheet" type="text/css">
         <!-- /global stylesheets -->
 
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="/favicon.ico">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <!-- Global CSS -->
-        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/assets/plugins/bootstrap/css/bootstrap.min.css">
         <!-- Plugins CSS -->
-        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="/static/assets/plugins/font-awesome/css/font-awesome.css">
         <!-- Theme CSS -->
         <link id="theme-style" rel="stylesheet" href="../../static/assets/css/styles.css">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -372,7 +372,7 @@
 
 
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" id="btnIndividual" >Купить</a>
+                            <a class="btn btn-cta" href="/payment" id="btnIndividual" >Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->
