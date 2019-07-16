@@ -16,8 +16,7 @@
         <link href="/static/assets/css/core.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/components.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/colors.css" rel="stylesheet" type="text/css">
-        <link href="/static/assets/images" rel="stylesheet" type="text/css">
-        <!-- /global stylesheets -->
+                <!-- /global stylesheets -->
 
 <#--        <link rel="shortcut icon" href="/assets/favicon.ico">-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -26,7 +25,7 @@
         <!-- Plugins CSS -->
         <link rel="stylesheet" href="/static/assets/plugins/font-awesome/css/font-awesome.css">
         <!-- Theme CSS -->
-        <link id="theme-style" rel="stylesheet" href="../../static/assets/css/styles.css">
+        <link id="theme-style" rel="stylesheet" href="/static/assets/css/styles.css">
 
         <!-- Core JS files -->
         <script type="text/javascript" src="/static/assets/js/core/libraries/jquery.min.js"></script>
@@ -51,8 +50,8 @@
             <div class="container">
                 <h1 class="logo">
                     <a class="scrollto" href="/">
-                       <span class="logo-icon-wrapper border-slate-500 text-slate-500">
-                           <img class="logo-icon" src="/static/assets/images/mainlocdgo.png" alt="icon"></span>
+<#--                       <span class="logo-icon-wrapper border-slate-500 text-slate-500">-->
+<#--                           <img class="logo-icon" src="/static/assets/images/mainlocdgo.png" alt="icon"></span>-->
                         <span class="text"><span class="highlight">SURDO</span>WEB</span></a>
                 </h1><!--//logo-->
                 <nav class="main-nav navbar-right" role="navigation">
@@ -80,7 +79,7 @@
 
         <div id="hero" class="hero-section">
 
-            <div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="10000">
+            <div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="1000">
 
                 <div class="figure-holder-wrapper">
                     <div class="container">
