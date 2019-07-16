@@ -42,7 +42,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         http.authorizeRequests()
 
-                .antMatchers("/static/assets/**", "/webjars/**", "/favicon.ico", "/auth/**")
+                .antMatchers("/static/assets/**", "/webjars/**", "/favicon.ico", "/auth/**", "/chat/**")
                 .permitAll()
 
                 .anyRequest()

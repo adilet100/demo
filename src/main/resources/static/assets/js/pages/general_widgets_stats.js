@@ -3016,10 +3016,10 @@ $(function() {
                 return d.percentage / 100 * τ;
             })
             .innerRadius(function (d) {
-                return (size / 2) - d.index * (strokeWidth + padding);
+                return (size / 2) - d.webrtc * (strokeWidth + padding);
             })
             .outerRadius(function (d) {
-                return ((size / 2) - d.index * (strokeWidth + padding)) - strokeWidth;
+                return ((size / 2) - d.webrtc * (strokeWidth + padding)) - strokeWidth;
             })
             .cornerRadius(20);
 
@@ -3028,10 +3028,10 @@ $(function() {
             .startAngle(0)
             .endAngle(τ)
             .innerRadius(function (d) {
-                return (size / 2) - d.index * (strokeWidth + padding);
+                return (size / 2) - d.webrtc * (strokeWidth + padding);
             })
             .outerRadius(function (d) {
-                return ((size / 2) - d.index * (strokeWidth + padding)) - strokeWidth;
+                return ((size / 2) - d.webrtc * (strokeWidth + padding)) - strokeWidth;
             });
 
 

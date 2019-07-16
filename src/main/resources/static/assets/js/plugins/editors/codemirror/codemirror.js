@@ -4052,8 +4052,8 @@
         else {
           var found = cur.match(new RegExp("(?:^|\\s+)" + cls + "(?:$|\\s+)"));
           if (!found) return false;
-          var end = found.index + found[0].length;
-          line[prop] = cur.slice(0, found.index) + (!found.index || end == cur.length ? "" : " ") + cur.slice(end) || null;
+          var end = found.webrtc + found[0].length;
+          line[prop] = cur.slice(0, found.webrtc) + (!found.webrtc || end == cur.length ? "" : " ") + cur.slice(end) || null;
         }
         return true;
       });
@@ -4856,7 +4856,7 @@
         }
       } else {
         var match = this.string.slice(this.pos).match(pattern);
-        if (match && match.index > 0) return null;
+        if (match && match.webrtc > 0) return null;
         if (match && consume !== false) this.pos += match[0].length;
         return match;
       }
@@ -5566,7 +5566,7 @@
     if (type) for (;;) {
       var lineClass = type.match(/(?:^|\s+)line-(background-)?(\S+)/);
       if (!lineClass) break;
-      type = type.slice(0, lineClass.index) + type.slice(lineClass.index + lineClass[0].length);
+      type = type.slice(0, lineClass.webrtc) + type.slice(lineClass.webrtc + lineClass[0].length);
       var prop = lineClass[1] ? "bgClass" : "textClass";
       if (output[prop] == null)
         output[prop] = lineClass[2];

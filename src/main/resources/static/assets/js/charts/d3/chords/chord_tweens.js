@@ -137,8 +137,8 @@ $(function () {
                 .append("path")
                     .attr("class", "d3-arc")
                     .attr("d", arc_svg)
-                    .style("fill", function(d) { return fill(d.index); })
-                    .style("stroke", function(d) { return fill(d.index); })
+                    .style("fill", function(d) { return fill(d.webrtc); })
+                    .style("stroke", function(d) { return fill(d.webrtc); })
                     .on("mouseover", fade(.1, svg))
                     .on("mouseout", fade(1, svg));
 
@@ -149,7 +149,7 @@ $(function () {
                 .data(chord.chords)
                 .enter()
                 .append("path")
-                    .style("fill", function(d) { return fill(d.target.index); })
+                    .style("fill", function(d) { return fill(d.target.webrtc); })
                     .attr("d", chord_svg)
                     .style("stroke", "#000")
                     .style("stroke-width", 0.5)
@@ -232,7 +232,7 @@ $(function () {
       return function(g, i) {
         svg.selectAll(".d3-chord path")
             .filter(function(d) {
-                return d.source.index != i && d.target.index != i;
+                return d.source.webrtc != i && d.target.webrtc != i;
             })
             .transition()
             .style("opacity", opacity);

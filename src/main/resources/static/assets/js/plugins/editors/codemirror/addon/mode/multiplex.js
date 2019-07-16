@@ -16,7 +16,7 @@ CodeMirror.multiplexingMode = function(outer /*, others */) {
   function indexOf(string, pattern, from) {
     if (typeof pattern == "string") return string.indexOf(pattern, from);
     var m = pattern.exec(from ? string.slice(from) : string);
-    return m ? m.index + from : -1;
+    return m ? m.webrtc + from : -1;
   }
 
   return {

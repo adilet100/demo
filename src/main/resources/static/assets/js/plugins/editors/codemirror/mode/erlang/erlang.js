@@ -546,7 +546,7 @@ CodeMirror.defineMode("erlang", function(cmCfg) {
   function wordafter(str) {
     var m = str.match(/,|[a-z]+|\}|\]|\)|>>|\|+|\(/);
 
-    return truthy(m) && (m.index === 0) ? m[0] : "";
+    return truthy(m) && (m.webrtc === 0) ? m[0] : "";
   }
 
   function postcommaToken(state) {

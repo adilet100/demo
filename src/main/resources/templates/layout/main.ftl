@@ -16,9 +16,10 @@
         <link href="/static/assets/css/core.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/components.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/colors.css" rel="stylesheet" type="text/css">
+        <link href="/static/assets/images" rel="stylesheet" type="text/css">
         <!-- /global stylesheets -->
 
-        <link rel="shortcut icon" href="/favicon.ico">
+<#--        <link rel="shortcut icon" href="/assets/favicon.ico">-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <!-- Global CSS -->
         <link rel="stylesheet" href="/static/assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -26,12 +27,6 @@
         <link rel="stylesheet" href="/static/assets/plugins/font-awesome/css/font-awesome.css">
         <!-- Theme CSS -->
         <link id="theme-style" rel="stylesheet" href="../../static/assets/css/styles.css">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
 
         <!-- Core JS files -->
         <script type="text/javascript" src="/static/assets/js/core/libraries/jquery.min.js"></script>
@@ -55,8 +50,9 @@
         <ul> <header id="header" class="header">
             <div class="container">
                 <h1 class="logo">
-                    <a class="scrollto" href="#hero">
-<!--                        <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/logo-icon.svg" alt="icon"></span>-->
+                    <a class="scrollto" href="/">
+                       <span class="logo-icon-wrapper border-slate-500 text-slate-500">
+                           <img class="logo-icon" src="/static/assets/images/mainlocdgo.png" alt="icon"></span>
                         <span class="text"><span class="highlight">SURDO</span>WEB</span></a>
                 </h1><!--//logo-->
                 <nav class="main-nav navbar-right" role="navigation">
@@ -112,7 +108,7 @@
 
                                 <h2 class="heading">Мобильное приложение SurdoApp <br class="hidden-xs">Удобный онлайн переводчик</h2>
                                 <p class="intro">Это возможность в любое время 24/7 проконсультироваться у специалиста!</p>
-                                <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Пробный звонок</a>
+                                <a href="https://192.168.0.106:8443" class="btn btn-primary btn-cta" >Пробный звонок</a>
 
                             </div><!--//item-content-inner-->
                         </div><!--//item-content-->
@@ -372,7 +368,7 @@
 
 
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" href="/payment/one" id="btnIndividual" >Купить</a>
+                            <a class="btn btn-cta" href="https://appr.tc/r/494266066" id="btnIndividual" >Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -388,7 +384,7 @@
 
 
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" href="/payment/two" id="btnCom" >Купить</a>
+                            <a class="btn btn-cta" href="#" id="btnCom" >Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -403,7 +399,7 @@
                                 <p>Обеспечение мероприятия платформой для перевода.Неограниченное количество слушателей</p>
                                 <a target="_blank">1 час аренда</a>
                             </div><!--//price-desc-->
-                            <a class="btn btn-cta" href="/payment/common?mode=three" id="btnConferenc" target="_blank">Купить</a>
+                            <a class="btn btn-cta" href="#" id="btnConferenc" target="_blank">Купить</a>
 
                         </div><!--//item-inner-->
                     </div><!--//item-->

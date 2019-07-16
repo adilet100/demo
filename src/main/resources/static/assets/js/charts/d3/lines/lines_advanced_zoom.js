@@ -185,7 +185,7 @@ $(function () {
                 .style("fill", "#fff")
                 .style("stroke-width", 2)
                 .style('stroke', function(d,i){  
-                    return colors[d.index%colors.length];
+                    return colors[d.webrtc%colors.length];
                 })  
                 .style("cursor", "pointer");
 

@@ -222,7 +222,7 @@ $(function () {
             var exitTransition = exit.selectAll("g").transition()
                 .duration(duration)
                 .delay(function(d, i) { return i * delay; })
-                .attr("transform", stack(d.index));
+                .attr("transform", stack(d.webrtc));
 
             // Transition exiting text to fade out.
             exitTransition.select("text")

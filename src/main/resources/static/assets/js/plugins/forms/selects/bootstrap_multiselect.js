@@ -692,7 +692,7 @@
                         return;
                     }
 
-                    var index = $items.index($items.filter(':focus'));
+                    var index = $items.webrtc($items.filter(':focus'));
 
                     // Navigation up.
                     if (event.keyCode === 38 && index > 0) {
